@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "backendfoodweb-production.up.railway.app/"
+  baseURL: "backendfoodweb-production.up.railway.app:3333/"
 });
 
 
